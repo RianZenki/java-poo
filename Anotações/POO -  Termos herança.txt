@@ -1,0 +1,67 @@
+- SUPER CLASSE
+Classe mãe.
+
+- SUB CLASSE
+Classe filha
+
+- ANCESTRAL
+Classe vó; Classe mãe da classe mãe;
+
+- DESCENDENTE
+Classe neta; Classe filha da classe filha;
+
+- CLASSE RAIZ
+Classe que não possui uma super classe.
+
+- CLASSE FOLHA
+Classe que não possui uma sub classe.
+Classe folha pode deixar se ser uma classe folha; Classe folha pode ter filha
+
+- GENERALIZAÇÃO
+Analisar a arvore de classes de baixo pra cima. Da ultima classe folha até a classe raiz.
+
+- ESPECIALIZAÇÃO
+Analisar a arvode de classe de cima para baixo. Da classe raiz até a ultima classe folha
+
+- TIPOS DE HERANÇA
+Herança pobre - Só herda os metodos e atributos da classe mãe e não possui atributos ou metodos adicionais.
+
+Herança foda - Alem de herdar os metodos e atributos da super classe possui atributos ou metodos adicionais.
+
+- CLASSE ABSTRATA
+Classe que não pode ser instanciada. Feita para seus metodos ou atributos serem herdados para outra classe.
+
+- METODO ABSTRATO
+Método sem implementação na classe mãe, a implementação é feita somente na classe filha. 
+
+Possui apenas a visibilidade, o tipo de retorno e os parametros.
+
+Metodo abstrato só pode ser declarado em uma interface ou em uma classe abstrata.
+
+Quando herdada um método abstrato é obrigatório fazer a implementação do método
+
+- CLASSE FINAL
+Classe que não pode ter uma classe filha.
+
+- METODO FINAL
+Método que não pode ser sobreescrito.
+
+- SOBREESCRITA
+Método herdado de outra classe que a implementação é modificada.
+
+o método deve possuir o mesmo nome e a mesma ASSINATURA do método da classe herdada.
+
+os métodos de sobreescrita é feito em classes diferentes.
+
+* ASSINATURA - Quantidade dos parametros e tipo dos parametros. 
+não importa o tipo de retorno e nem o nome dos atributos.
+A ordem dos parametros importa!!
+
+ex: int, String =! String, int
+
+
+- SOBRECARGA
+Método de uma classe é implementado nela mesma, de diversar formas diferentes, diferenciando elas pela ASSINATURA.
+não importa o tipo de retorno e nem o nome dos atributos.
+
+O método não é herdado.
