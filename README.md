@@ -1,2 +1,2 @@
 # java-poo
- Exercicios e aulas de Java POO
+ Exercicios e anotações de Java POO
